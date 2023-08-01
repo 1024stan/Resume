@@ -17,72 +17,36 @@
 
 **武汉理大学** - 控制科学与工程 - 学术型硕士 - 自动化学院                              2019年07月 - 2022年06月
 
-- 2021年 第三届北京高校人工智能论坛暨清华大学第621期博士生论坛 获**分论坛优秀口头报告奖**
-- 2020年 中国研究生数学建模竞赛 获**国家三等奖**
-- 2020年 西门子杯中国智能制造挑战赛华中赛区 获**省三等奖** 
-- 2020年 “兆易创新杯”第十五届中国研究生电子设计竞赛 获**省三等奖** 
-- 2020年 中国“互联网+”大学生创新创业大赛武汉理工大学赛区 获**三等奖** 
-- 2019年 中国研究生数学建模竞赛 获**国家三等奖** 
-
-相关课程：随机过程、矩阵论、计算机控制系统、机器学习、数据可视化
-
 **武汉理工大学** - 自动化专业 - 本科 - 自动化学院                                            2015年09月 - 2019年06月
-
-- 2018年 美国大学生数学建模竞赛 获**H奖（二等奖）** 
-- 2017年 "北斗杯"全国大学生科技竞赛大学组 获**优秀奖** 
-- 2017年 华中地区数学建模竞赛 获**三等奖** 
-- 2016年 武汉理工大学"ASM"杯智能车竞赛 获**三等奖** 
-
-相关课程：概率论、模式识别、图像处理、智能计算。谷歌机器学习课程（自学）。
 
 ## <font color= #871F78 size=3 face="微软雅黑">🎨工作经历</font>
 
-**新一代音乐评测引擎**                                                                                     2022年08月 - 2022年08月
+**新一代跨平台音乐评测引擎**                                                                                     2022年08月 - 2022年10月
 
-- **Situation：**线上音乐评测引擎架构混乱，技术老旧，亟需升级成深度学习技术和引擎架构；
-- **Task：**开发音乐评测引擎，支持多路并发，三天完成10w+条数据评测，稳定运行三天无内存泄漏无崩溃；
+- **Situation：**线上音乐评测引擎架构混乱，技术老旧，亟需升级成深度学习技术和引擎架构，并支持跨平台构建，满足云端部署和本地端部署需求；
+- **Task：**开发音乐评测引擎，支持多路并发，三天完成10w+条数据评测，稳定运行三天无内存泄漏无崩溃，支持Linux和Android系统；
 - **Action 1：**推动多方协商，制定引擎的输出和输出功规；
 - **Action 2：**学习CMake构建工程和C++ 11的编程基础；
 - **Action 3：**基于AIOE口语评测引擎架构，实现音乐评测题型独立引擎；使用onnxinfer组件(基于onnxruntime)，实现基于c++端onnx模型的推理，并对齐c++端和python端一致性；
-- **Result：**代码构建发版，快速入门c++开发并实践，为业务拓展百万商机。
+- **Action 4：**以xlite组件替换onnxinfer组件实现端侧onnx模型的推理；
+- **Action 5：**通过交叉编译，用Android NDK在Linux上编译Android系统armV8板子的动态库引擎；
+- **Action 6：**实践出xlite组件的崩溃和一致性问题，同xlite组件开发人员一起修复问题；
+- **Action 7：**使用adb技术完成端侧的一致性和稳定性验证；编译64位和32位两个版本的端侧引擎；
+- **Result：**代码构建发版，快速入门c++开发并实践，掌握交叉编译技术，填补音乐引擎端侧空白，为业务拓展百万商机，已上线。
 
-**新一代音乐评测引擎安卓版**                                                                          2022年09月 - 2022年10月
+**中文实时背诵跟踪题型mocha-fa技术升级**                                                       2022年10月 - 2023年06月
 
-- **Situation：**已完成音乐评测引擎升级，有端侧业务方要集成该功能；
-- **Task：**构建新一代音乐评测引擎安卓版，稳定运行，无内存泄漏无崩溃；
-- **Action 1：**以xlite组件替换onnxinfer组件实现端侧onnx模型的推理；
-- **Action 2：**通过交叉编译，用Android NDK在Linux上编译Android系统armV8板子的动态库引擎；
-- **Action 3：**实践出xlite组件的崩溃和一致性问题，同xlite组件开发人员一起修复问题；
-- **Action 4：**使用adb技术完成端侧的一致性和稳定性验证；编译64位和32位两个版本的端侧引擎；
-
-- **Result：**构建发版，掌握交叉编译技术，填补音乐引擎端侧空白。
-
-**口语评测引擎python封装**                                                                             2022年10月 - 2022年11月
-
-- **Situation：**口语评测引擎内部计算逻辑复杂，改动方案后不能验证全流程效果，将c++代码封装成python可import的site-pages；
-- **Task：**封装AIOE引擎10个题型的13个模块，稳定运行三天无内存泄漏无崩溃；
-- **Action 1：**使用pybind11，将口语评测引擎的plug插件模块封装成python库；
-
-- **Action 2：**对齐一致性，实现多批次运行；
-- **Result：**构建发版，促进研究—开发一体化。
-
-**Mocha-Fa朗读题升级**                                                                                     2022年12月 - 2023年03月
-
-- **Situation：**开发朗读题升级方案，但模型较复杂，单路单数据运行耗时严重;
-- **Task：**开发Mocha-Fa方案，并开发batchflow组件提升时间效率;
-- **Action 1：**开发BPE分词和GPA字词发音对齐方案;
-- **Action 2：**由于onnx内涉及逻辑判断的算子一致性失效，使用python对onnx文件切图，将ED模型切成四个子图，对齐在线计算下每个子图的一致性；
-- **Action 3：**开发batchflow组件的batchbuild部分，实现存储push数据等、拼多inst的batch数据、计算try attention等操作，开发beamsearch功能，拉通整体流程，对齐整体ED模型的一致性；
-- **Result：**完成调度逻辑、在线逻辑十分复杂的batchflow组件的开发，实现朗读题整体识别方案升级。
-
-**中文实时背诵跟踪引擎**                                                                                     2023年04月 - 2023年06月
-
-- **Situation：**学习机使用识别引擎+match引擎+评测引擎达成背诵业务，现技术方案升级，以中文背诵跟踪引擎替代识别+match引擎的功能；
-- **Task：**与多方对齐中文试卷功规和引擎输出功规，开发中文背诵跟踪引擎；
-- **Action 1：**根据对齐试卷功规，开发试卷解析模块，集成xtts组件实现发音预测功能；
-- **Action 2：**集成Mocha-Fa模型，实现背诵跟踪功能，实现跟踪结果缓存和吐出功能，实现由ctc计算fa的功能；
-- **Action 3：**发现batchflow的长音频限制，提出并开发mvad切分音频方案；
-- **Result：**构建发版,测试三天无内存泄漏,无崩溃。
+- **Situation:** 线上使用转写引擎+match引擎+评测引擎实现背诵跟踪任务，现升级技术方案，新方案使用中文背诵跟踪引擎+评测引擎实现该功能;
+- **Task:** 将引擎封装成python可调用版本，开发新方案代码，开发能提升onnx模型运算效率的batchflow组件;使AIOE引擎支持流式出多次结果；
+- **Action 1:**  使用pybind11，将口语评测引擎的plug插件模块封装成python库，对齐一致性，实现多批次运行；
+- **Action 2：**开发BPE分词和GPA字词发音对齐方案;
+- **Action 3：**由于onnx内涉及逻辑判断的算子一致性失效，使用python对onnx文件切图，将ED模型切成四个子图，对齐在线计算下每个子图的一致性；
+- **Action 4：**开发batchflow组件的batchbuild部分，实现存储在线push数据等、拼多inst的batch数据、计算try attention等操作，开发beamsearch功能，拉通整体流程，对齐整体ED模型的一致性；
+- **Action 5：**根据对齐试卷功规，开发试卷解析模块，集成xtts组件实现发音预测功能；
+- **Action 6：**集成Mocha-Fa模型，实现背诵跟踪功能，实现跟踪结果缓存和吐出功能，实现由ctc计算fa的功能；
+- **Action 7：**发现batchflow的长音频限制，提出并开发mvad切分音频方案；
+- **Action 8:**  受限于原型音频切分不准确的结果，负责从多角度验证效果，推动引擎上线;
+- **Result:** 构建发版,测试三天无内存泄漏,无崩溃，已上线。
 
 
 
@@ -100,10 +64,6 @@
 
 
 
-
-
-
-
 ## <font color= #871F78 size=3 face="微软雅黑">🥇校园经历</font>
 
 **SCI论文** 
@@ -112,10 +72,6 @@
 2. **Tao Su**, Ying Shi * et al. A hybrid loss balancing algorithm based on gradient equilibrium and sample loss for understanding of road scenes at basic-level [J]. Pattern Analysis and Applications. (**SCI、EI收录，IF:2.580**) 
 3. Y. Sun, Y. Shi, Q. Hu, C. Xie and **Tao. Su.** DTformer: An Efficient Digital Twin Model for Loss Measurement in UHVDC Transmission Systems[J]. IEEE Transactions on Power Systems, doi: 10.1109/TPWRS.2023.3278300.(**SCI、EI收录，IF:7.326**，**毕设**)
 4. Du, Jiabao, Yue, Chang, Shi, Ying, Yu, Jicheng, Sun, Fan, **Su, Tao,** Xie, Changjun. A Frequency Decomposition-Based Hybrid Forecasting Algorithm for Short-Term Reactive Power[J]. Energies, 2021: 14(20):6606, doi:10.3390/en14206606. (**SCI、EI收录，IF:3.004**) 
-
-**EI收录论文** 
-
-1. Y. Huang and Tao. Su, "Optimizing Fruit Fly Algorithm to Solve TSP Problem," 2017 International Conference on Computer Systems, Electronics and Control (ICCSEC), Dalian, 2017, pp. 1409-1411, doi: 10.1109/ICCSEC.2017.8446833. 
 
 **发明专利** 
 
