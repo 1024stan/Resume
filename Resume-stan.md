@@ -1,8 +1,6 @@
 
 
- # &emsp;&emsp;&emsp;苏 涛 &emsp; <span style="font-size: 18px">求职意向：深度学习算法工程师</span> <img align = "right" src="./resource/stan.jpg/" width="120px">
-
-
+ # &emsp;&emsp;&emsp;苏 涛 &emsp; <span style="font-size: 16px">求职意向：深度学习算法工程师</span> <img align = "right" src="./resource/stan.jpg/" width="120px">
 
 
 
@@ -11,13 +9,11 @@
 **邮箱**：sutao_stan@163.com&emsp;&emsp; **电话**：15871409930&emsp;&emsp;&emsp;**毕业时间**：2022年
 
 
-
-
 ## <font color= #871F78 size=3 face="微软雅黑">🎓教育经历</font>
 
-**武汉理大学** - 控制科学与工程 - 学术型硕士 - 自动化学院                              2019年07月 - 2022年06月
+**武汉理工大学** - 控制科学与工程 - 学术型硕士 - 自动化学院                              2019年07月 - 2022年06月
 
-**武汉理工大学** - 自动化专业 - 本科 - 自动化学院                                            2015年09月 - 2019年06月
+**武汉理工大学** - 自动化专业 - 本科 - 自动化学院                                                 2015年09月 - 2019年06月
 
 ## <font color= #871F78 size=3 face="微软雅黑">🎨工作经历</font>
 
@@ -83,6 +79,3 @@
 - **证书/执照：** 计算机二级
 
 - **语言：** 英语（CET-6）
-
-
-
